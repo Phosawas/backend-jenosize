@@ -1,7 +1,7 @@
 // const express = require('express')
 import express from 'express'
 const app = express()
-const port = 5000
+const port = process.env.PORT || 5000
 import dotenv from 'dotenv'
 import axios, { isCancel, AxiosError } from 'axios';
 import { game24, getRestaurant, botXOGameMove } from './controller/jenosize.js';
