@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "8255b7e3-312f-4240-9512-ea91dfa79121",
+		"name": "jenosize",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "restaurant",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/restaurant?query=burger",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"restaurant"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "burger"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "game24",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/game24?number=1,2,3,4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"game24"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "1,2,3,4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
